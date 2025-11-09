@@ -1,55 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Madhawi Rai Portfolio</title>
-<link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Madhawi Rai | Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<header>
-  <h1>Madhawi Rai</h1>
-  <nav><a href="#projects">Portfolio</a> | <a href="#contact">Contact</a></nav>
-</header>
-<section id="hero">
-  <div class="hero-text">
-    <h2>Transforming Insights into Impact</h2>
-    <p>Explore projects in strategy, process improvement, and analytics.</p>
-  </div>
-  <img src="assets/images/hero-placeholder.jpg" alt="Hero Image">
-</section>
-<section id="projects">
-  <div class="project-card">
-    <img src="assets/images/project1-thumb.jpg" alt="Project 1">
-    <h3>Lean Six Sigma</h3>
-    <p>Structured problem-solving and analytics to reduce turnaround time.</p>
-    <a href="leansixsigma.html">View Project →</a>
-  </div>
-  <div class="project-card">
-    <img src="assets/images/project2-thumb.jpg" alt="Project 2">
-    <h3>Power BI Dashboards</h3>
-    <p>Dynamic dashboards visualizing sales, tourism, and operations.</p>
-    <a href="#">View Dashboards →</a>
-  </div>
-  <div class="project-card">
-    <img src="assets/images/project3-thumb.jpg" alt="Project 3">
-    <h3>SQL & Python Projects</h3>
-    <p>Data cleaning, analysis, and visualization projects demonstrating coding proficiency.</p>
-    <a href="#">View Projects →</a>
-  </div>
-  <div class="project-card">
-    <img src="assets/images/project4-thumb.jpg" alt="Project 4">
-    <h3>Excel, Tableau & Presentations</h3>
-    <p>Analytical storytelling using Excel models, Tableau dashboards, and executive presentations.</p>
-    <a href="#">View Materials →</a>
-  </div>
-</section>
-<footer id="contact">
-  <a href="mailto:rai.madhawi5@gmail.com"><img src="assets/images/email.svg" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/madhawirai/"><img src="assets/images/linkedin.svg" alt="LinkedIn"></a>
-  <a href="https://github.com/madhawi-rai"><img src="assets/images/github.svg" alt="GitHub"></a>
-  <a href="#"><img src="assets/images/instagram.svg" alt="Instagram"></a>
-  <a href="#"><img src="assets/images/cv.svg" alt="CV"></a>
-</footer>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">Madhawi Rai</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="leansixsigma.html">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="Hero">
+    <div class="hero-bg" style="background-image:url('assets/images/hero.jpg')"></div>
+    <div class="hero-content container">
+      <h1>Transforming Insights into Impact</h1>
+      <p>Explore my projects in strategy, process improvement, and analytics — where creativity meets data-driven decision-making.</p>
+      <a href="#portfolio" class="btn">Explore Projects ↓</a>
+    </div>
+  </section>
+
+  <main class="container" id="portfolio">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="portfolio-grid">
+      <article class="card">
+        <div class="card-media" style="background-image:url('assets/images/leansixsigma.jpg')"></div>
+        <div class="card-body">
+          <h3>Lean Six Sigma – Reducing Service Turnaround Time</h3>
+          <p>Structured problem-solving and analytics to reduce resolution time by 33% and improve customer satisfaction by 8 points.</p>
+          <a class="link" href="leansixsigma.html">View Project →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-media" style="background-image:url('assets/images/powerbi.jpg')"></div>
+        <div class="card-body">
+          <h3>Power BI Dashboards</h3>
+          <p>Interactive dashboards transforming raw data into strategic business insights.</p>
+          <a class="link" href="https://drive.google.com/drive/u/3/folders/1-YMA-vYxKNZv8uvsOq1Bz1tqDDcMy435" target="_blank">View Project →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-media" style="background-image:url('assets/images/sqlpython.jpg')"></div>
+        <div class="card-body">
+          <h3>SQL & Python Analytics</h3>
+          <p>Data cleaning, COVID-19 analysis, and correlation modeling for actionable insights.</p>
+          <a class="link" href="https://github.com/madhawi-rai/PortfolioProjects" target="_blank">View on GitHub →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-media" style="background-image:url('assets/images/tableau.jpg')"></div>
+        <div class="card-body">
+          <h3>Tableau, Excel & Presentations</h3>
+          <p>Dashboards, Excel analytics, and business storytelling for strategic clarity.</p>
+          <a class="link" href="https://public.tableau.com/app/profile/madhawi.rai/vizzes" target="_blank">View Work →</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Let's Connect</h2>
+      <p>Open to collaborations, consulting, and analytics projects. Let's build something meaningful together.</p>
+      <a href="mailto:rai.maddie07@gmail.com" class="btn">Say Hello</a>
+    </div>
+  </section>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>© 2025 Madhawi Rai | Strategy · Process Improvement · Analytics</p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/madhawirai/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/madhawi-rai" target="_blank">GitHub</a>
+        <a href="https://www.instagram.com/fogwoodandart/" target="_blank">Instagram</a>
+      <a class="link" href="https://drive.google.com/drive/folders/1-ITd46or3hPCjoKFcotHO75vkZ0rYE4G?usp=drive_link" target="_blank" style="margin-left:16px;font-weight:700;color:var(--teal)">View My CV</a></div>
+    </div>
+  </footer>
 </body>
 </html>
