@@ -1,0 +1,1 @@
+Sample data for Lean Six Sigma project.
