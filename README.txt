@@ -1,1 +1,1 @@
-PortfolioV2 - ready. Replacing images 
+PortfolioV2 - ready. Replace images and upload to GitHub. See assets/data for sample Excel.
